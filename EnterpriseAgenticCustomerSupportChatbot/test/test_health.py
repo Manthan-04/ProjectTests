@@ -1,6 +1,8 @@
 from httpx import AsyncClient
 import pytest
 
+# To run below tests use command: pytest -q
+
 @pytest.mark.asyncio
 async def test_helth():
     async with AsyncClient(base_url="http://127.0.0.1:8000/api/v1") as client:
