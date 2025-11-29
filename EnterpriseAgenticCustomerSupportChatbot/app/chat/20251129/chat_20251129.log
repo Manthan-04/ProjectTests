@@ -1,0 +1,106 @@
+2025-11-29 19:33:22,201 | INFO | User: manthan@gmail.com -- Thread: None. | app_logger_chat | chat.py:36
+
+2025-11-29 19:33:22,201 | INFO | User: manthan@gmail.com -- Thread: None. Checking if user is already present or not: {'table': <class 'core.database.model.Users'>, 'columns': <sqlalchemy.orm.attributes.InstrumentedAttribute object at 0x0000020261511760>, 'values': 'manthan@gmail.com'} | app_logger_chat | chat.py:40
+
+2025-11-29 19:33:22,217 | INFO | User: manthan@gmail.com -- Thread: None. User details are: None | app_logger_chat | chat.py:42
+
+2025-11-29 19:33:22,217 | INFO | User: manthan@gmail.com -- Thread: None. User not present. Creating the user: manthan@gmail.com | app_logger_chat | chat.py:45
+
+2025-11-29 19:33:22,249 | INFO | User: manthan@gmail.com -- Thread: None. User creation result: manthan@gmail.com. Now creating user conversation thread. | app_logger_chat | chat.py:55
+
+2025-11-29 19:33:22,266 | INFO | User: manthan@gmail.com -- Thread: None. Checking the conversation thread details: {'table': <class 'core.database.model.Threads'>, 'columns': <sqlalchemy.orm.attributes.InstrumentedAttribute object at 0x0000020261512520>, 'values': '06d2fc61-cd2c-11f0-a8a2-40a3ccf65daf'} | app_logger_chat | chat.py:62
+
+2025-11-29 19:33:22,266 | INFO | User: manthan@gmail.com -- Thread: 06d55ebf-cd2c-11f0-a7bf-40a3ccf65daf. Conversation thread id is: 06d55ebf-cd2c-11f0-a7bf-40a3ccf65daf | app_logger_chat | chat.py:65
+
+2025-11-29 19:33:22,266 | INFO | User: manthan@gmail.com -- Thread: 06d55ebf-cd2c-11f0-a7bf-40a3ccf65daf. Storing the message. | app_logger_chat | chat.py:68
+
+2025-11-29 19:33:22,283 | INFO | User: manthan@gmail.com -- Thread: 06d55ebf-cd2c-11f0-a7bf-40a3ccf65daf. Message stored successfully which is: Hi.... | app_logger_chat | chat.py:73
+
+2025-11-29 19:40:46,279 | INFO | User: manthan@gmail.com -- Thread: None. | app_logger_chat | chat.py:36
+
+2025-11-29 19:40:46,279 | INFO | User: manthan@gmail.com -- Thread: None. Checking if user is already present or not: {'table': <class 'core.database.model.Users'>, 'columns': <sqlalchemy.orm.attributes.InstrumentedAttribute object at 0x0000014E0A4318A0>, 'values': 'manthan@gmail.com'} | app_logger_chat | chat.py:40
+
+2025-11-29 19:40:46,282 | INFO | User: manthan@gmail.com -- Thread: None. User details are: None | app_logger_chat | chat.py:42
+
+2025-11-29 19:40:46,282 | INFO | User: manthan@gmail.com -- Thread: None. User not present. Creating the user: manthan@gmail.com | app_logger_chat | chat.py:45
+
+2025-11-29 19:42:24,985 | INFO | User: manthan@gmail.com -- Thread: None. | app_logger_chat | chat.py:36
+
+2025-11-29 19:42:24,985 | INFO | User: manthan@gmail.com -- Thread: None. Checking if user is already present or not: {'table': <class 'core.database.model.Users'>, 'columns': <sqlalchemy.orm.attributes.InstrumentedAttribute object at 0x000002A1526C59E0>, 'values': 'manthan@gmail.com'} | app_logger_chat | chat.py:40
+
+2025-11-29 19:42:24,988 | INFO | User: manthan@gmail.com -- Thread: None. User details are: None | app_logger_chat | chat.py:42
+
+2025-11-29 19:42:24,988 | INFO | User: manthan@gmail.com -- Thread: None. User not present. Creating the user: manthan@gmail.com | app_logger_chat | chat.py:45
+
+2025-11-29 19:42:25,014 | INFO | User: manthan@gmail.com -- Thread: None. User creation result: manthan@gmail.com. Now creating user conversation thread. | app_logger_chat | chat.py:55
+
+2025-11-29 19:42:25,031 | INFO | User: manthan@gmail.com -- Thread: None. Checking the conversation thread details: {'table': <class 'core.database.model.Threads'>, 'columns': <sqlalchemy.orm.attributes.InstrumentedAttribute object at 0x000002A1526C68E0>, 'values': '3a773d98-e18b-4c8c-a378-50bf076d0382'} | app_logger_chat | chat.py:62
+
+2025-11-29 19:42:25,031 | INFO | User: manthan@gmail.com -- Thread: 9708bc91-1b9d-413e-8a8b-ad46abdcc6b9. Conversation thread id is: 9708bc91-1b9d-413e-8a8b-ad46abdcc6b9 | app_logger_chat | chat.py:65
+
+2025-11-29 19:42:25,031 | INFO | User: manthan@gmail.com -- Thread: 9708bc91-1b9d-413e-8a8b-ad46abdcc6b9. Storing the message. | app_logger_chat | chat.py:68
+
+2025-11-29 19:42:25,057 | INFO | User: manthan@gmail.com -- Thread: 9708bc91-1b9d-413e-8a8b-ad46abdcc6b9. Message stored successfully which is: Hi.... | app_logger_chat | chat.py:73
+
+2025-11-29 19:42:25,064 | INFO | User: manthan@gmail.com -- Thread: 9708bc91-1b9d-413e-8a8b-ad46abdcc6b9. AI Message is: Hello. How are you?... | app_logger_chat | chat.py:78
+
+2025-11-29 19:43:01,510 | INFO | User: manthan@gmail.com -- Thread: 9708bc91-1b9d-413e-8a8b-ad46abdcc6b9. | app_logger_chat | chat.py:36
+
+2025-11-29 19:43:01,510 | INFO | User: manthan@gmail.com -- Thread: 9708bc91-1b9d-413e-8a8b-ad46abdcc6b9. | app_logger_chat | chat.py:36
+
+2025-11-29 19:43:01,510 | INFO | User: manthan@gmail.com -- Thread: 9708bc91-1b9d-413e-8a8b-ad46abdcc6b9. Checking if user is already present or not: {'table': <class 'core.database.model.Users'>, 'columns': <sqlalchemy.orm.attributes.InstrumentedAttribute object at 0x000002A1526C59E0>, 'values': 'manthan@gmail.com'} | app_logger_chat | chat.py:40
+
+2025-11-29 19:43:01,510 | INFO | User: manthan@gmail.com -- Thread: 9708bc91-1b9d-413e-8a8b-ad46abdcc6b9. Checking if user is already present or not: {'table': <class 'core.database.model.Users'>, 'columns': <sqlalchemy.orm.attributes.InstrumentedAttribute object at 0x000002A1526C59E0>, 'values': 'manthan@gmail.com'} | app_logger_chat | chat.py:40
+
+2025-11-29 19:43:01,510 | INFO | User: manthan@gmail.com -- Thread: 9708bc91-1b9d-413e-8a8b-ad46abdcc6b9. User details are: <core.database.model.Users object at 0x000002A1527A7F20> | app_logger_chat | chat.py:42
+
+2025-11-29 19:43:01,510 | INFO | User: manthan@gmail.com -- Thread: 9708bc91-1b9d-413e-8a8b-ad46abdcc6b9. User details are: <core.database.model.Users object at 0x000002A1527A7F20> | app_logger_chat | chat.py:42
+
+2025-11-29 19:43:01,510 | INFO | User: manthan@gmail.com -- Thread: 9708bc91-1b9d-413e-8a8b-ad46abdcc6b9. Storing the message. | app_logger_chat | chat.py:68
+
+2025-11-29 19:43:01,510 | INFO | User: manthan@gmail.com -- Thread: 9708bc91-1b9d-413e-8a8b-ad46abdcc6b9. Storing the message. | app_logger_chat | chat.py:68
+
+2025-11-29 19:43:01,526 | INFO | User: manthan@gmail.com -- Thread: 9708bc91-1b9d-413e-8a8b-ad46abdcc6b9. Message stored successfully which is: Hi.... | app_logger_chat | chat.py:73
+
+2025-11-29 19:43:01,526 | INFO | User: manthan@gmail.com -- Thread: 9708bc91-1b9d-413e-8a8b-ad46abdcc6b9. Message stored successfully which is: Hi.... | app_logger_chat | chat.py:73
+
+2025-11-29 19:43:01,544 | INFO | User: manthan@gmail.com -- Thread: 9708bc91-1b9d-413e-8a8b-ad46abdcc6b9. AI Message is: Hello. How are you?... | app_logger_chat | chat.py:78
+
+2025-11-29 19:43:01,544 | INFO | User: manthan@gmail.com -- Thread: 9708bc91-1b9d-413e-8a8b-ad46abdcc6b9. AI Message is: Hello. How are you?... | app_logger_chat | chat.py:78
+
+2025-11-29 19:43:15,447 | INFO | User: manthan@gmail.com -- Thread: 9708bc91-1b9d-413e-8a8b-ad46abdcc6b9. | app_logger_chat | chat.py:36
+
+2025-11-29 19:43:15,447 | INFO | User: manthan@gmail.com -- Thread: 9708bc91-1b9d-413e-8a8b-ad46abdcc6b9. | app_logger_chat | chat.py:36
+
+2025-11-29 19:43:15,447 | INFO | User: manthan@gmail.com -- Thread: 9708bc91-1b9d-413e-8a8b-ad46abdcc6b9. | app_logger_chat | chat.py:36
+
+2025-11-29 19:43:15,447 | INFO | User: manthan@gmail.com -- Thread: 9708bc91-1b9d-413e-8a8b-ad46abdcc6b9. Checking if user is already present or not: {'table': <class 'core.database.model.Users'>, 'columns': <sqlalchemy.orm.attributes.InstrumentedAttribute object at 0x000002A1526C59E0>, 'values': 'manthan@gmail.com'} | app_logger_chat | chat.py:40
+
+2025-11-29 19:43:15,447 | INFO | User: manthan@gmail.com -- Thread: 9708bc91-1b9d-413e-8a8b-ad46abdcc6b9. Checking if user is already present or not: {'table': <class 'core.database.model.Users'>, 'columns': <sqlalchemy.orm.attributes.InstrumentedAttribute object at 0x000002A1526C59E0>, 'values': 'manthan@gmail.com'} | app_logger_chat | chat.py:40
+
+2025-11-29 19:43:15,447 | INFO | User: manthan@gmail.com -- Thread: 9708bc91-1b9d-413e-8a8b-ad46abdcc6b9. Checking if user is already present or not: {'table': <class 'core.database.model.Users'>, 'columns': <sqlalchemy.orm.attributes.InstrumentedAttribute object at 0x000002A1526C59E0>, 'values': 'manthan@gmail.com'} | app_logger_chat | chat.py:40
+
+2025-11-29 19:43:15,447 | INFO | User: manthan@gmail.com -- Thread: 9708bc91-1b9d-413e-8a8b-ad46abdcc6b9. User details are: <core.database.model.Users object at 0x000002A1527A7F50> | app_logger_chat | chat.py:42
+
+2025-11-29 19:43:15,447 | INFO | User: manthan@gmail.com -- Thread: 9708bc91-1b9d-413e-8a8b-ad46abdcc6b9. User details are: <core.database.model.Users object at 0x000002A1527A7F50> | app_logger_chat | chat.py:42
+
+2025-11-29 19:43:15,447 | INFO | User: manthan@gmail.com -- Thread: 9708bc91-1b9d-413e-8a8b-ad46abdcc6b9. User details are: <core.database.model.Users object at 0x000002A1527A7F50> | app_logger_chat | chat.py:42
+
+2025-11-29 19:43:15,457 | INFO | User: manthan@gmail.com -- Thread: 9708bc91-1b9d-413e-8a8b-ad46abdcc6b9. Storing the message. | app_logger_chat | chat.py:68
+
+2025-11-29 19:43:15,457 | INFO | User: manthan@gmail.com -- Thread: 9708bc91-1b9d-413e-8a8b-ad46abdcc6b9. Storing the message. | app_logger_chat | chat.py:68
+
+2025-11-29 19:43:15,457 | INFO | User: manthan@gmail.com -- Thread: 9708bc91-1b9d-413e-8a8b-ad46abdcc6b9. Storing the message. | app_logger_chat | chat.py:68
+
+2025-11-29 19:43:15,475 | INFO | User: manthan@gmail.com -- Thread: 9708bc91-1b9d-413e-8a8b-ad46abdcc6b9. Message stored successfully which is: Hi. My name is Manth... | app_logger_chat | chat.py:73
+
+2025-11-29 19:43:15,475 | INFO | User: manthan@gmail.com -- Thread: 9708bc91-1b9d-413e-8a8b-ad46abdcc6b9. Message stored successfully which is: Hi. My name is Manth... | app_logger_chat | chat.py:73
+
+2025-11-29 19:43:15,475 | INFO | User: manthan@gmail.com -- Thread: 9708bc91-1b9d-413e-8a8b-ad46abdcc6b9. Message stored successfully which is: Hi. My name is Manth... | app_logger_chat | chat.py:73
+
+2025-11-29 19:43:15,496 | INFO | User: manthan@gmail.com -- Thread: 9708bc91-1b9d-413e-8a8b-ad46abdcc6b9. AI Message is: Hello. How are you?... | app_logger_chat | chat.py:78
+
+2025-11-29 19:43:15,496 | INFO | User: manthan@gmail.com -- Thread: 9708bc91-1b9d-413e-8a8b-ad46abdcc6b9. AI Message is: Hello. How are you?... | app_logger_chat | chat.py:78
+
+2025-11-29 19:43:15,496 | INFO | User: manthan@gmail.com -- Thread: 9708bc91-1b9d-413e-8a8b-ad46abdcc6b9. AI Message is: Hello. How are you?... | app_logger_chat | chat.py:78
+

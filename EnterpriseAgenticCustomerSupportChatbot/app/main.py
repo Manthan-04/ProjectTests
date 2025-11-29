@@ -15,5 +15,20 @@ async def middleware(request: Request, call_next):
     return await call_next(request)
 
 @app.get("/")
-async def base():
+async def baseFunc():
     return JSONResponse(status_code=200, content={'status': 'ok.'})
+
+@app.on_event('startup')
+async def startup_event():
+    base.metadata.create_all(bind=engine)
+
+@app.exception_handler(Exception)
+async def globalExceptionHandler(request: Request, exc: Exception):
+    return JSONResponse(
+        status_code=500,
+        content={
+            "status": 500,
+            "detail": "Internal Server Error.",
+            "error": str(exc)
+        }
+    )
